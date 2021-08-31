@@ -39,7 +39,7 @@
 		{
 			"id": "6263976E-4A0A-EC11-949F-7085C23EF572",
 			"name": "TransferData",
-			"ver": "21.8.31.132",
+			"ver": "21.8.31.1324",
 			"description": "Pushes table data from source system to target system",
 			"apiGroup": "8A7D53F5-AF09-EC11-949F-7085C23EF572"
 		}
@@ -69,6 +69,11 @@
 		{
 			"id": "BB0B00AD-B909-EC11-949F-7085C23EF572",
 			"name": "SourceSystemAuth",
+			"description": null
+		},
+		{
+			"id": "EB9AFD6C-4D0A-EC11-949F-7085C23EF572",
+			"name": "TargetSystemAuth",
 			"description": null
 		}
 	],

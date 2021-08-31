@@ -15,7 +15,7 @@
 		}
 	],
 	"name": "queryAndPushData",
-	"ver": "21.8.31.134",
+	"ver": "21.8.31.1310",
 	"description": null,
 	"content": [
 		"==OBJECT STRING==",
@@ -25,9 +25,7 @@
 		"result = 'OK';\r",
 		"\r",
 		"try {\r",
-		"    // Send api request.\r",
 		"    const response = await apis.transferTableData({tableName, data});\r",
-		"    // Log response data\r",
 		"    console.log(response.data);\r",
 		"} catch(error) {\r",
 		"    log.error(\"Error in request: \", error);\r",
@@ -43,9 +41,7 @@
 		"console.log(data);\r",
 		"result = 'OK';\r",
 		"try {\r",
-		"    // Send api request.\r",
 		"    var response = await apis.transferTableData({ tableName: tableName, data: data });\r",
-		"    // Log response data\r",
 		"    console.log(response.data);\r",
 		"}\r",
 		"catch (error) {\r",
