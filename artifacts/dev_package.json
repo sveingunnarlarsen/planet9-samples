@@ -88,7 +88,7 @@
 		{
 			"id": "8A7D53F5-AF09-EC11-949F-7085C23EF572",
 			"name": "samples",
-			"description": "Transfers table data from one Planet 9 system to another Planet9 system"
+			"description": "Transfers table data from one Planet 9 system to another"
 		}
 	],
 	"tile": [],

@@ -3,7 +3,7 @@
 	"createdAt": "2021-08-30T17:03:54.440Z",
 	"createdBy": "svein.gunnar.larsen@neptune-software.com",
 	"name": "samples",
-	"description": "Transfers table data from one Planet 9 system to another Planet9 system",
-	"ver": "21.9.1.127",
+	"description": "Transfers table data from one Planet 9 system to another",
+	"ver": "21.9.1.1220",
 	"package": "55256b21-ae09-ec11-949f-7085c23ef572"
 }
