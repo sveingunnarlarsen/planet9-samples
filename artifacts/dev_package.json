@@ -15,7 +15,7 @@
 	"apps": [
 		{
 			"id": "80B3807B-AE09-EC11-949F-7085C23EF572",
-			"ver": "21.8.31.1255",
+			"ver": "21.9.1.128",
 			"application": "transfertabledata",
 			"title": "",
 			"description": "Transfers table data from one planet 9 system to another"
@@ -84,6 +84,13 @@
 			"description": null
 		}
 	],
+	"api_group": [
+		{
+			"id": "8A7D53F5-AF09-EC11-949F-7085C23EF572",
+			"name": "samples",
+			"description": "Transfers table data from one Planet 9 system to another Planet9 system"
+		}
+	],
 	"tile": [],
 	"category": [],
 	"launchpad": [],
@@ -94,11 +101,5 @@
 	"wf_notifications": [],
 	"wf_definition": [],
 	"department": [],
-	"script_scheduler": [],
-	"api_group": [
-		{
-			"id": "8A7D53F5-AF09-EC11-949F-7085C23EF572",
-			"name": "samples"
-		}
-	]
+	"script_scheduler": []
 }
