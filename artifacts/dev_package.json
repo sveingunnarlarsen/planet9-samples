@@ -50,6 +50,13 @@
 	"jsclass": [
 		{
 			"id": "807BFB58-B409-EC11-949F-7085C23EF572",
+			"name": "queryAndPushData",
+			"ver": "21.8.31.1332",
+			"description": null,
+			"jsscriptGroup": "21943541-B409-EC11-949F-7085C23EF572"
+		},
+		{
+			"id": "807BFB58-B409-EC11-949F-7085C23EF572",
 			"name": "queryAndPushData"
 		}
 	],
