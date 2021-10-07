@@ -6,11 +6,58 @@
 		"targetServers": [],
 		"branch": "",
 		"remote": "https://github.com/sveingunnarlarsen/planet9-samples.git",
-		"testServers": []
+		"testServers": [],
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"samples\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"samples\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		],
+		"readme": "Planet 9 Samples",
+		"testAPI": [
+			{
+				"id": "4e62fab6-5c59-4102-e76f-8eb6762cdd29",
+				"apiid": "9C8592FF-AF09-EC11-949F-7085C23EF572",
+				"operid": "B99591E5-B704-431D-B51F-191C1EB72027",
+				"enabled": true,
+				"_data": {
+					"parameters": {},
+					"headers": {},
+					"body": ""
+				},
+				"testName": "SomeTestName",
+				"statusCode": "200",
+				"jestMaxRuntime": 1000,
+				"jestMatchName": "req.data",
+				"jestMatchOperation": "toBeTruthy",
+				"jestMatchValue": ""
+			}
+		]
 	},
 	"name": "samples",
 	"description": null,
-	"ver": "21.8.31.137",
+	"ver": "21.10.7.163",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -54,10 +101,6 @@
 			"ver": "21.8.31.1332",
 			"description": null,
 			"jsscriptGroup": "21943541-B409-EC11-949F-7085C23EF572"
-		},
-		{
-			"id": "807BFB58-B409-EC11-949F-7085C23EF572",
-			"name": "queryAndPushData"
 		}
 	],
 	"jsscript_group": [
@@ -101,5 +144,6 @@
 	"wf_notifications": [],
 	"wf_definition": [],
 	"department": [],
-	"script_scheduler": []
+	"script_scheduler": [],
+	"connector": []
 }
